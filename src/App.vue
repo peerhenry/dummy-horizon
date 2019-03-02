@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link class="navlink" to="/">Sun</router-link>
+      <router-link class="navlink" :to="{ name: 'sun' }">Sun</router-link>
       <span>&nbsp;|&nbsp;</span>
-      <router-link class="navlink" to="/phone">Phone</router-link>
+      <router-link class="navlink" :to="{ name: 'phone' }">Phone</router-link>
     </div>
     <router-view/>
   </div>
